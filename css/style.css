@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 3em;
   width: 100%; }
   .colorlib-featured .featured-wrap {
-    margin-top: -7em; }
+    margin-top: 0em; }
   .colorlib-featured .featured-entry img {
     -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
@@ -389,6 +389,12 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #e6e6e6; }
   .colorlib-featured .owl-theme .owl-dots .owl-dot.active span {
     background: #cccccc; }
+  .colorlib-featured h2 {
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+  }
 
 .services {
   margin-bottom: 50px;
@@ -916,7 +922,7 @@ article {
       color: #4d4d4d; }
     .qbstp-header-subscribe .form-group input::input-placeholder {
       color: #4d4d4d; }
-  .qbstp-header-subscribe #email {
+  .qbstp-header-subscribe #phone {
     font-size: 14px;
     width: 100%;
     border: none;
